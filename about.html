@@ -29,6 +29,30 @@
     <link rel="stylesheet" href="styles/portfolio.css" />
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="Olga Logo"
+          />
+          <img
+            src="images/logo-small.jpg"
+            class="logo d-block d-md-none"
+            alt="Olga Logo"
+          />
+        </a>
+        <ul>
+          <li><a href="/" title="Homepage">Home</a></li>
+          <li class="active">
+            <a href="/about.html" title="About Olga">About</a>
+          </li>
+          <li><a href="/work.html" title="Olga's work">Work</a></li>
+          <li><a href="/contact.html" title="Contact Olga">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="row">
         <div class="col-lg-6">
@@ -48,6 +72,58 @@
           <img src="images/olga.jpg" class="img-fluid mt-5 rounded" alt="" />
         </div>
       </div>
+      <footer class="text-center">
+        <div
+          class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+        >
+          <div>
+            <h4>Work Inquiry</h4>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-branding"
+              title="Contact Olga"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <a
+          href="mailto:igorivnaolga@gmail.com"
+          class="email-link"
+          title="Email Olga"
+          >igorivnaolga@gmail.com</a
+        >
+        <div class="social-links mt-5">
+          <a
+            href="https://www.linkedin.com/in/olga-sergiienko-62a743b8"
+            target="_blank"
+            title="LinkedIn Profile"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a
+            href="https://github.com/igorivnaolga"
+            target="_blank"
+            title="GitHub Profile"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://www.facebook.com/olya.sergiienko/"
+            target="_blank"
+            title="Facebook Profile"
+            ><i class="fa-brands fa-facebook-f"></i
+          ></a>
+        </div>
+        <p class="text-center mt-4">
+          This project was coded by Olga Sergiienko and it is
+          <a
+            href="https://github.com/igorivnaolga/Portfolio-project"
+            target="_blank"
+            >open-sourced</a
+          >
+        </p>
+      </footer>
     </div>
   </body>
 </html>
