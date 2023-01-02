@@ -100,12 +100,16 @@ p {
 .logo {
   max-height: 40px;
 }
+.travel-app {
+  padding: 30px 20px;
+  background-color: var(--secondary-color);
+}
 .weather-app {
   padding: 95px 30px;
   background-color: var(--secondary-color);
 }
-.yoga-app {
-  padding: 30px 10px;
+.weatherReact-app {
+  padding: 95px 30px;
   background-color: var(--secondary-color);
 }
 nav {
